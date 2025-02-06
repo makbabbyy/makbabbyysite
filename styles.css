@@ -52,17 +52,15 @@ body {
     max-height: 90%;
     border-radius: 10px;
 }
-.lightbox:target {
-    display: flex;
-}
-.close {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    font-size: 2rem;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+.lightbox .close {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            font-size: 2rem;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
 }
 @keyframes fadeIn {
     from { opacity: 0; }
